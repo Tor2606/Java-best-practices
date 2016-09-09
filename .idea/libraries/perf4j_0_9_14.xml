@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="perf4j-0.9.14">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/JavaForkJoinForParallelProgramming/perf4j-0.9.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
