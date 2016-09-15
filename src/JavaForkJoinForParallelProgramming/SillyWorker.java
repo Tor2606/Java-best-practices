@@ -18,6 +18,7 @@ public class SillyWorker {
         long result = bigProblem.solve();
         stopWatch.stop();
 
+        String a = "a";
         System.out.println("Computing Fib number: " + n);
         System.out.println("Computed Result: " + result);
         System.out.println("Elapsed Time: " + stopWatch.getElapsedTime());
