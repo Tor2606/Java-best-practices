@@ -71,3 +71,6 @@ public class InsertTest {
 }
 
 //Insert - best are Vector and ArrayList;
+//removing - identical;
+//Iterator - ArrayList better
+
