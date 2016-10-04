@@ -1,5 +1,8 @@
 package ApacheCommons;
 import org.apache.commons.lang3.StringUtils;
+
+import static org.apache.commons.lang3.StringUtils.isBlank;
+
 /**
  * Created by islabukhin on 02.10.16.
  */
@@ -64,5 +67,11 @@ public class StringUtilsSample {
         for(int i=0; i<splitArr.length; i++ ) {
             System.out.println( i + ") "+ splitArr[i]);
         }
+
+        //is blank sample (true if not null)
+        String text = "text";
+        System.out.println(isBlank(text));
+        text = null;
+        System.out.println(isBlank(text));
     }
 }
