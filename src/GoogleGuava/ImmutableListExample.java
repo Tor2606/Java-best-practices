@@ -3,9 +3,6 @@ package GoogleGuava;
 import GoogleGuava.Objects.Item;
 import com.google.common.collect.ImmutableList;
 
-/**
- * Created by islabukhin on 04.10.16.
- */
 public class ImmutableListExample {
     private final ImmutableList<Item> immutableList;
 
