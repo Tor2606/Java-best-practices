@@ -1,7 +1,5 @@
 package Concurrency.ThreadPools;
 
-import java.util.concurrent.atomic.AtomicLong;
-
 public class ThreadPoolSample {
     /*AtomicLong counter = new AtomicLong();
     String name;

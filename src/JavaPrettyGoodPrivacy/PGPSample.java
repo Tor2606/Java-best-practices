@@ -1,9 +1,5 @@
 package JavaPrettyGoodPrivacy;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.security.Security;
-
 /**
  * Created by islabukhin on 28.09.16.
  */
@@ -16,10 +12,10 @@ public class PGPSample {
         FileInputStream key = new FileInputStream("res/keys/public.bpg");
         PGPPublicKey pubKey = KeyBasedFileProcessorUtil.readPublicKey(key);
 
-        //Output file
+        //Output file.xml
         FileOutputStream out = new FileOutputStream("target/enc.bpg");
 
-        //Input file
+        //Input file.xml
         String inputFilename = "src/main/resources/plaintext.txt";
 
         //Other settings

@@ -1,8 +1,5 @@
 package ProjectsCoins;
 
-import org.apache.commons.io.IOUtils;
-
-import java.io.InputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -28,7 +25,5 @@ public class ProjectCoins {
                 | IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();
         }
-
-
     }
 }

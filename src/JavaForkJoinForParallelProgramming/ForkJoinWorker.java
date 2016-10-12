@@ -4,9 +4,9 @@ package JavaForkJoinForParallelProgramming;
  * Created by islabukhin on 09.09.16.
  */
 
-import java.util.concurrent.ForkJoinPool;
-
 import org.perf4j.StopWatch;
+
+import java.util.concurrent.ForkJoinPool;
 //worse results - paradox(May be some caching affords?)
 public class ForkJoinWorker {
 

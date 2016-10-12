@@ -1,8 +1,8 @@
 package TryWithResource;
 
-import java.io.*;
-
 import org.apache.commons.io.IOUtils;
+
+import java.io.*;
 
 /**
  * Created by islabukhin on 30.09.16.

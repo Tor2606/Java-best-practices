@@ -2,7 +2,6 @@ package LambdasSamples;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
 
 /**
  * Created by islabukhin on 14.09.16.

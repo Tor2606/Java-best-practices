@@ -4,11 +4,7 @@ package UsingJAXBToGenerateXMLFromXSD;
  * Created by islabukhin on 15.09.16.
  */
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBElement;
 import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-import java.math.BigDecimal;
 
 public class GenerateXML{
     public static void main(String[] args) throws JAXBException {

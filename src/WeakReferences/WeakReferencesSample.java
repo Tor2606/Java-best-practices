@@ -3,9 +3,6 @@ package WeakReferences;
 import java.lang.ref.*;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.WeakHashMap;
-
-import static javax.swing.UIManager.put;
 
 public class WeakReferencesSample {
     //all classes in lang.ref

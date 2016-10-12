@@ -1,7 +1,6 @@
 package ApacheCommons;
 
 import org.apache.commons.collections.*;
-import org.apache.commons.collections.bag.*;
 import org.apache.commons.collections.bag.HashBag;
 import org.apache.commons.collections.bidimap.TreeBidiMap;
 import org.apache.commons.collections.map.HashedMap;

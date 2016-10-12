@@ -73,6 +73,6 @@ public class BackgroundLogger implements Runnable {
     }
 
     private void bgLog(LogEntry line) {
-        // log the entry to a file.
+        // log the entry to a file.xml.
     }
 }

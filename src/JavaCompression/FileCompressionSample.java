@@ -122,7 +122,7 @@ public class FileCompressionSample {
 }
 /*
 
-GZIPInputStream – An input stream filter for reading compressed data in the GZIP file format.
-GZIPOutputStream – An output stream filter for writing compressed data in the GZIP file format.
+GZIPInputStream – An input stream filter for reading compressed data in the GZIP file.xml format.
+GZIPOutputStream – An output stream filter for writing compressed data in the GZIP file.xml format.
 Default internal buffer of 512, use BufferedOutputStream if you require more.
 */
