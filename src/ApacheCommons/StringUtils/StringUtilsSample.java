@@ -1,4 +1,4 @@
-package ApacheCommons;
+package ApacheCommons.StringUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import static org.apache.commons.lang3.StringUtils.isBlank;
