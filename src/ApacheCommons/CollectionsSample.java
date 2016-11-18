@@ -18,8 +18,6 @@ public class CollectionsSample {
         HashMap hashMap = new HashMap();
         hashMap.put("2", 2);
         hashMap.put("1", 1);
-
-
         //Map Iteration
         IterableMap iterableMap = new HashedMap(hashMap);
         MapIterator it = iterableMap.mapIterator();
