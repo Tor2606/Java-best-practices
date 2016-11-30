@@ -1,0 +1,4 @@
+Facade provides a simplified interface to a large body of code.
+
+We can use the façade pattern to collate all the complex method calls and related code blocks and channelizes it through one single Façade class. In this way with respect to client there is only one single call. Even if we make changes to the subsystem packages / class and their logic there is no impact to the client call. In short this increases loose coupling.
+It makes easier to use and maintain creating a more structured environment and reduces dependencies between libraries or other packages.
