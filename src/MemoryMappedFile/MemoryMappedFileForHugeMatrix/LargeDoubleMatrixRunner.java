@@ -1,4 +1,4 @@
-package MemoryMappedFileForHugeMatrix;
+package MemoryMappedFile.MemoryMappedFileForHugeMatrix;
 
 import org.junit.Test;
 

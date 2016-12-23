@@ -9,6 +9,18 @@ import java.util.List;
  */
 public class EmployeeSerial implements Serializable {
 
+    public static void main(String[] args) throws Exception {
+        EmployeeSerial employeeSerialInner = new EmployeeSerial();
+        employeeSerialInner.setFirstName("Vasya");
+        employeeSerialInner.setLastName("Ololo");
+        EmployeeSerial employeeSerial = new EmployeeSerial();
+        employeeSerial.setLastName("Outer");
+        employeeSerial.setFirstName("Petya");
+        employeeSerial.setSupervisor(employeeSerialInner);
+        EmployeeSerial employeeSerial1 = (EmployeeSerial) deserializeObject(serializeObject(employeeSerial));
+        System.out.println("Inner object name after serialization" + employeeSerial.getSupervisor().getFirstName());
+    }
+
     private static final long serialVersionUID = 3657773293974543890L;
 
     private String firstName;

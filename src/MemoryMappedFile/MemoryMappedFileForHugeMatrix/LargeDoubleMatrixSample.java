@@ -1,4 +1,4 @@
-package MemoryMappedFileForHugeMatrix;
+package MemoryMappedFile.MemoryMappedFileForHugeMatrix;
 
 import sun.misc.Cleaner;
 import sun.nio.ch.DirectBuffer;

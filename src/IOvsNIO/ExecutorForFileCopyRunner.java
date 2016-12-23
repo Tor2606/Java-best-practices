@@ -1,6 +1,6 @@
 package IOvsNIO;
 
-import MemoryMappedFileForHugeMatrix.LargeDoubleMatrixSample;
+import MemoryMappedFile.MemoryMappedFileForHugeMatrix.LargeDoubleMatrixSample;
 
 import java.io.*;
 import java.nio.ByteBuffer;
