@@ -1,4 +1,4 @@
-package SerialisePerformanceTest;
+package Serialisation.perfomance;
 
 import java.io.Serializable;
 import java.nio.ByteBuffer;

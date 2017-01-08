@@ -11,5 +11,6 @@ public class SplitterSample {
 
         Splitter splitter = Splitter.on(',').omitEmptyStrings().trimResults();
         newArrayList(splitter.split("one, ,two, three")).forEach(s-> System.out.println(s));
+
     }
 }

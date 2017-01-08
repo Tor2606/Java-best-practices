@@ -1,4 +1,4 @@
-package SerialisePerformanceTest;
+package Serialisation.perfomance;
 
 import sun.misc.Unsafe;
 

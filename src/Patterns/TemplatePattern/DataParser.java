@@ -1,7 +1,8 @@
 package Patterns.TemplatePattern;
 
+//template abstract class defines some nontrivial complex operation(template method) as final
 abstract public class DataParser {
-    public void parseDataAndGenerateOutput(){
+    public final void parseDataAndGenerateOutput(){
         readData();
         processData();
         writeData();

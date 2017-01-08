@@ -1,4 +1,4 @@
-package SerialisePerformanceTest;
+package Serialisation.perfomance;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

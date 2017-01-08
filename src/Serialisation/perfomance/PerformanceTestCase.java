@@ -1,4 +1,4 @@
-package SerialisePerformanceTest;
+package Serialisation.perfomance;
 
 abstract class PerformanceTestCase {
     private final String name;

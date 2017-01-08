@@ -1,4 +1,5 @@
 package ApacheCommons.StringUtils;
+
 import org.apache.commons.lang3.StringUtils;
 
 import static org.apache.commons.lang3.StringUtils.isBlank;
@@ -19,7 +20,7 @@ public class StringUtilsSample {
         //SubString
         System.out.println("3) Substring >>>" +
                 StringUtils.substring("SUBSTRING", 1, 5));
-        System.out.println(new String("SUBSTRING").substring(1,5));
+        System.out.println(new String("SUBSTRING").substring(1, 5));
 
         //Strip whitespace from start and end of the string.(no analog in java.lang)
         //If null returns empty string
@@ -31,7 +32,7 @@ public class StringUtilsSample {
 
         //Join all Strings in the Array into a Single String, separated by $#$
         System.out.println("6) Join Strings using separator >>>" +
-                StringUtils.join(new String[] { "AB", "CD", "EF" }, "$#$"));
+                StringUtils.join(new String[]{"AB", "CD", "EF"}, "$#$"));
 
         //Returns index where the Strings start to differ
         System.out.println(
@@ -63,9 +64,9 @@ public class StringUtilsSample {
                 StringUtils.abbreviate("Once upon a time ", 12));
 
         //Split a String into an Array using # as seperator.
-        String [] splitArr=StringUtils.split("AB#CD#EF#GH", "#");
-        for(int i=0; i<splitArr.length; i++ ) {
-            System.out.println( i + ") "+ splitArr[i]);
+        String[] splitArr = StringUtils.split("AB#CD#EF#GH", "#");
+        for (int i = 0; i < splitArr.length; i++) {
+            System.out.println(i + ") " + splitArr[i]);
         }
 
         //is blank sample (true if not null)
